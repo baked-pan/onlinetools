@@ -1,0 +1,31 @@
+﻿@charset "utf-8";html{overflow-x:hidden;overflow-y:scroll}
+.wrap{background:url("/images/2013/downbg.jpg") no-repeat center top #151d22}
+.top{background:url("/images/2013/downtopbg.jpg") no-repeat top center #0f1418}
+.header{background:url("/images/2013/header.jpg") no-repeat}
+.main{background:url("/images/2013/mainbg.jpg") no-repeat;overflow:hidden;width:960px}
+.row{background:url("/images/2013/mobile.jpg") no-repeat 498px 55px;height:654px;clear:both;overflow:hidden}
+.bottom{clear:both;background:#dbdbdb;min-width:960px}
+.title{margin-top:120px;font-size:24px;font-family:"Microsoft Yahei","SimSun";color:#fff}
+.row p{margin-top:43px;line-height:24px;color:#d4d4d4;font-size:13px}
+.down{zoom:1;margin-top:40px;}
+.down:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.down span{float:left;display:inline;width:160px;margin-right:20px;text-align:right;font-size:14px;color:#808080;font-weight:bold}
+.down span a{display:inline-block}
+.box{_display: none;position:fixed;left:50%;top:50%;background:#fff;width:400px;margin:-171px 0 0 -200px;height:342px;z-index:9999;transform:scale(0);-webkit-transform:scale(0);-moz-transform:scale(0);-o-transform:scale(0);transition:transform .3s,opacity .3s;-webkit-transition:-webkit-transform .3s,opacity .3s;-moz-transition:-moz-transform .3s,opacity .3s;-o-transition:-o-transform .3s,opacity .3s;opacity:0;filter:alpha(opacity=0);_position:absolute}
+.scale-do{_display:block;opacity:1;filter:alpha(opacity=100);transform:scale(1);-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1)}
+.infos{margin:22px 28px;position:relative}
+.close{position:absolute;top:-6px;right:0;_right:15px;cursor:pointer}
+.boxtit{font-size:16px;color:#000;font-weight:bold;margin-bottom:16px}
+.list{overflow:hidden}
+.list li{line-height:34px;height:34px;overflow:hidden;vertical-align:middle;padding-left:10px;background:url("/images/2013/point.gif") no-repeat 0 16px;color:#010005;font-size:14px}
+.list a,.list a:visited{color:#1e6e92;text-decoration:underline}
+.list a:hover{color:#c00}
+.overlay{width:100%;height:100%;opacity:.5;filter:alpha(opacity=50);background:#000;z-index:999;position:fixed;_position:absolute;left:0;top:0;display:none}
+
+.subnav{display: none;position: absolute;top:51px;left: 0;width: 170px;height: 100px;z-index: 99;line-height: 50px;text-align: left;background: none;padding-top:0;}
+.subnav .bg{width: 170px;height: 100px;padding-top: 3px;background: #3f3f3f;filter:alpha(opacity=60);opacity: .6;}
+.subnav .content{position: absolute;top:3px;left:0;width:170px;height:100px;}
+
+.link{width:960px;margin:0 auto;font-size:14px;line-height:24px;clear:both;padding:10px 0}
+.link span{color:#333;width:65px;text-align:center}
+.link a{margin:0 5px}
