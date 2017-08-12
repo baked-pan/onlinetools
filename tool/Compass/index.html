@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>H5Compass</title>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style type="text/css">
+      html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        width: 320px;
+        height: 568px;
+        overflow: hidden;
+      }
+      body {
+        position: relative;
+      }
+      #compass, #gradienter {
+        width: 320px;
+        height: 568px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: left 218ms;
+      }
+      #gradienter {
+        left: 320px;
+      }
+      .nav {
+        list-style: none;
+        padding-left: 0;
+        position: absolute;
+        top: 500px;
+        left: 160px;
+        margin-left: -15px;
+      }
+
+      .nav li {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, .4);
+        display: inline-block;
+      }
+      .nav li + li {
+        margin-left: 10px;
+      }
+      .nav li.active {
+        background-color: rgba(255, 255, 255, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="compass"></div>
+    <canvas id="gradienter" width="640" height="1136"></canvas>
+    <ul class="nav">
+      <li class="active"></li>
+      <li></li>
+    </ul>
+    <script type="text/javascript" src="./bower_components/raphael/raphael.js"></script>
+    <script type="text/javascript" src="./bower_components/hammerjs/hammer.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
